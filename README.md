@@ -40,3 +40,10 @@ The fuzzer exploits realistic failure modes:
 - OpenAI-compatible interface  
 
 ---
+
+
+##  📊 Example Output
+10 / 16 attacks leaked the canary.
+If a secret is in the system prompt, the model will leak it.
+Structured outputs bypass guardrails.
+Only architecture prevents leakage.
